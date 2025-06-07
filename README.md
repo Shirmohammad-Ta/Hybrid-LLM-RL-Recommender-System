@@ -1,4 +1,4 @@
-# 🔮 Hybrid LLM-RL Recommender System
+#  Hybrid LLM-RL Recommender System
 
 This project implements a novel hybrid recommender system that combines **Large Language Models (LLMs)** with **Reinforcement Learning (RL)** and a **Self-Regulation Mechanism** to improve recommendation quality, especially in sparse-data environments.
 
