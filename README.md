@@ -1,34 +1,19 @@
-#  LLM-RL Recommender System
+# 🔮 Hybrid LLM-RL Recommender System
 
-This project implements a hybrid recommender system that combines **Large Language Models (LLMs)** and **Reinforcement Learning (RL)** with a **self-regulation mechanism** to improve recommendation quality under data sparsity.
-
----
-
-##  Key Features
-
--  LLM-based synthetic data generation (e.g., GPT-2)
--  Reinforcement Learning for adaptive recommendation (PPO)
--  Self-regulation to filter and prioritize high-quality synthetic data
--  Works in sparse data or cold-start scenarios
--  Evaluated on MovieLens and Amazon Books datasets
+This project implements a novel hybrid recommender system that combines **Large Language Models (LLMs)** with **Reinforcement Learning (RL)** and a **Self-Regulation Mechanism** to improve recommendation quality, especially in sparse-data environments.
 
 ---
 
+## 🚀 Key Features
 
- 
+- 🤖 Synthetic data generation using GPT-based LLMs
+- 🧠 Reinforcement Learning with PPO for feedback-driven optimization
+- 🔄 Self-regulation module to select high-quality, diverse training samples
+- 📈 Evaluation on MovieLens and Amazon Books datasets
+- ✅ Designed for cold-start and low-data scenarios
 
-```bash
-pip install transformers torch pandas scikit-learn stable-baselines3
+---
 
-## Run Preprocessing: python data/preprocess.py
-## Train the Model: python src/train.py
+## 📁 Project Structure
 
-## Datasets
-MovieLens 1M: https://grouplens.org/datasets/movielens/
-Amazon Reviews (Books): https://nijianmo.github.io/amazon/index.html
-
-## Reproducibility:
-Random seed fixed at 42
-Scripts run end-to-end with one command
-Training reproducible using same hyperparameters
-
+<pre> ``` Hybrid-LLM-RL-Recommender-System/ │ ├── data/ │ ├── movielens_sample.csv │ ├── amazon_books_sample.csv │ ├── preprocess.py │ └── processed/ │ ├── src/ │ ├── llm_generator.py │ ├── rl_agent.py │ ├── self_regulation.py │ ├── train.py │ └── utils.py │ ├── evaluation/ │ ├── evaluate.py │ ├── plot_results.py │ ├── RESULTS.md │ └── README.md │ ├── config.yaml └── README.md ← (this file) ``` </pre>
