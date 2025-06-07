@@ -50,3 +50,61 @@ Hybrid-LLM-RL-Recommender-System/
 ```bash
 pip install torch transformers scikit-learn stable-baselines3 matplotlib pandas
 
+---
+
+##  How to Run
+
+### 1. Preprocess the data
+
+```bash
+python data/preprocess.py
+
+
+### 2. Train the system
+
+```bash
+python src/train.py
+
+
+---
+
+##  Evaluation
+
+### Evaluation metrics include:
+
+- Precision@10
+- Recall@10
+- NDCG@10
+
+### Visualization tools available in:
+
+- `evaluation1/plot_results.py`
+
+### Summary results:
+
+- `evaluation1/RESULTS.md`
+
+---
+
+##  Datasets
+
+- [MovieLens 1M](https://grouplens.org/datasets/movielens/)
+- [Amazon Reviews (Books)](https://nijianmo.github.io/amazon/index.html)
+
+---
+
+##  Reproducibility
+
+- All configurations stored in: `config.yaml`
+- Random seed fixed at: `42`
+- All modules can be run independently and tested standalone
+
+---
+
+##  License
+
+This project is licensed under the **MIT License © 2025 Shirmohammad Tavangari**
+
+---
+
+
