@@ -16,28 +16,30 @@ This project implements a novel hybrid recommender system that combines **Large 
 
 ## 📁 Project Structure
 
+```
 Hybrid-LLM-RL-Recommender-System/
 │
 ├── data/
-│ ├── movielens_sample.csv
-│ ├── amazon_books_sample.csv
-│ ├── preprocess.py
-│ └── processed/
+│   ├── movielens_sample.csv
+│   ├── amazon_books_sample.csv
+│   ├── preprocess.py
+│   └── processed/
 │
 ├── src/
-│ ├── llm_generator.py
-│ ├── rl_agent.py
-│ ├── self_regulation.py
-│ ├── train.py
-│ └── utils.py
+│   ├── llm_generator.py
+│   ├── rl_agent.py
+│   ├── self_regulation.py
+│   ├── train.py
+│   └── utils.py
 │
 ├── evaluation/
-│ ├── evaluate.py
-│ ├── plot_results.py
-│ ├── RESULTS.md
-│ └── README.md
+│   ├── evaluate.py
+│   ├── plot_results.py
+│   ├── RESULTS.md
+│   └── README.md
 │
 ├── config.yaml
-└── README.md ← (this file)
+└── README.md  ← (this file)
+```
 
 
