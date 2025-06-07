@@ -4,17 +4,17 @@ This project implements a novel hybrid recommender system that combines **Large 
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 🤖 Synthetic data generation using GPT-based LLMs
-- 🧠 Reinforcement Learning with PPO for feedback-driven optimization
-- 🔄 Self-regulation module to select high-quality, diverse training samples
-- 📈 Evaluation on MovieLens and Amazon Books datasets
-- ✅ Designed for cold-start and low-data scenarios
+-  Synthetic data generation using GPT-based LLMs
+-  Reinforcement Learning with PPO for feedback-driven optimization
+-  Self-regulation module to select high-quality, diverse training samples
+-  Evaluation on MovieLens and Amazon Books datasets
+-  Designed for cold-start and low-data scenarios
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Hybrid-LLM-RL-Recommender-System/
@@ -42,4 +42,11 @@ Hybrid-LLM-RL-Recommender-System/
 └── README.md  ← (this file)
 ```
 
+
+---
+
+##  Installation
+
+```bash
+pip install torch transformers scikit-learn stable-baselines3 matplotlib pandas
 
