@@ -14,22 +14,6 @@ This project implements a hybrid recommender system that combines **Large Langua
 
 ---
 
-##  Project Structure
-├── data/
-│ ├── movielens_sample.csv
-│ ├── amazon_books_sample.csv
-│ ├── preprocess.py
-│ └── processed/
-├── src/
-│ ├── llm_generator.py
-│ ├── rl_agent.py
-│ ├── self_regulation.py
-│ ├── train.py
-│ └── utils.py
-
-
-
----
 
  
 
