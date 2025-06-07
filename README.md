@@ -15,27 +15,35 @@ This project implements a hybrid recommender system that combines **Large Langua
 ---
 
 ##  Project Structure
-
+├── data/
+│ ├── movielens_sample.csv
+│ ├── amazon_books_sample.csv
+│ ├── preprocess.py
+│ └── processed/
+├── src/
+│ ├── llm_generator.py
+│ ├── rl_agent.py
+│ ├── self_regulation.py
+│ ├── train.py
+│ └── utils.py
 
 
 
 ---
 
-## 🚀 Getting Started
-
-### 🔧 Install Dependencies
+ 
 
 ```bash
 pip install transformers torch pandas scikit-learn stable-baselines3
 
-Run Preprocessing: python data/preprocess.py
-Train the Model: python src/train.py
+## Run Preprocessing: python data/preprocess.py
+## Train the Model: python src/train.py
 
-Datasets
+## Datasets
 MovieLens 1M: https://grouplens.org/datasets/movielens/
 Amazon Reviews (Books): https://nijianmo.github.io/amazon/index.html
 
-Reproducibility:
+## Reproducibility:
 Random seed fixed at 42
 Scripts run end-to-end with one command
 Training reproducible using same hyperparameters
