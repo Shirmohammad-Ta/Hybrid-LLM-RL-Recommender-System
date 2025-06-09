@@ -54,13 +54,13 @@ pip install torch transformers scikit-learn stable-baselines3 matplotlib pandas
 
 ##  How to Run
 
-### 1. Preprocess the data
+###  Preprocess the data
 
 ```bash
 python data/preprocess.py
 
 
-### 2. Train the system
+###  Train the system
 
 ```bash
 python src/train.py
